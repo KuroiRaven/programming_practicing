@@ -69,6 +69,10 @@ classDiagram
         
         + estimateArea() float;
     }
+    
+    class Circle {
+        - double radius;
+    }
 ```
 Ici, chaque forme a une méthode différente pour calculer son air.
 ```Java
